@@ -84,9 +84,9 @@ jobs:
           key: ${{ secrets.HOST_SSH_KEY }}
           script: |
             cd /root/lab12-final-project
-            docker-compose down
-            docker-compose pull
-            docker-compose up -d --remove-orphans
+            docker compose down
+            docker compose pull
+            docker compose up -d --remove-orphans
             docker system prune -af --filter "until=24h"
             
    
