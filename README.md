@@ -78,7 +78,7 @@ lab12-final-project/
 
 ```bash
 # Clone the repository
-git clone [https://github.com/3193604328/lab12-final-project.git](https://github.com/Eloisa-virgo/EloVia_Lab12.git)
+git clone https://github.com/Eloisa-virgo/EloVia_Lab12.git
 
 # Start all services
 docker compose up -d
