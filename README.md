@@ -32,8 +32,8 @@
 
 | Application | URL |
 |-------------|-----|
-| Personal Website |  [http://139.199.162.99:8081](http://139.199.162.99:8081) |
-| Todo App |  [http://139.199.162.99:8082](http://139.199.162.99:8082) |
+| Personal Website |  [http://54.210.206.167:8081](http://54.210.206.167:8081) |
+| Todo App |  [http://54.210.206.167:8082](http://54.210.206.167:8082) |
 
 ---
 
@@ -78,14 +78,14 @@ lab12-final-project/
 
 ```bash
 # Clone the repository
-git clone https://github.com/3193604328/lab12-final-project.git
+git clone [https://github.com/3193604328/lab12-final-project.git](https://github.com/Eloisa-virgo/EloVia_Lab12.git)
 
 # Start all services
-docker-compose up -d
+docker compose up -d
 
 # Check running services
-docker-compose ps
+docker compose ps
 
 # View logs
-docker-compose logs -f
+docker compose logs -f
 ```
