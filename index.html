@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+        }
+
+        body {
+            background: #fff;
+            padding: 50px 20px;
+        }
+
+        .main-title {
+            text-align: center;
+            color: #1877f2;
+            font-size: 4rem;
+            font-weight: 500;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
+        }
+
+        .profiles-wrap {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            flex-wrap: wrap;
+        }
+
+        .profile-card {
+            width: 340px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .avatar {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 40px;
+            background: #e6f2ff;
+        }
+
+        .info-row {
+            width: 100%;
+            font-size: 1.9rem;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .info-row .label {
+            font-weight: 500;
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 2.5rem;
+            }
+
+            .avatar {
+                width: 160px;
+                height: 160px;
+            }
+
+            .info-row {
+                font-size: 1.3rem;
+            }
+
+            .profiles-wrap {
+                gap: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="main-title">Student Profile</h1>
+
+    <div class="profiles-wrap">
+        <!-- 第一位学生 -->
+        <div class="profile-card">
+            <img src="photo1.jpg" alt="Student 1" class="avatar">
+            <div class="info-row"><span class="label">Full Name:</span>Vivian</div>
+            <div class="info-row"><span class="label">Student ID:</span>20232093</div>
+            <div class="info-row"><span class="label">Class:</span> Class 242 of Software Engineering (Sino-foreign
+                Cooperative Education)</div>
+            <div class="info-row"><span class="label">Major:</span> Software Engineering</div>
+            <div class="info-row"><span class="label">University:</span> North Minzu University</div>
+        </div>
+
+        <!-- 第二位学生 -->
+        <div class="profile-card">
+            <img src="photo2.jpg" alt="Student 2" class="avatar">
+            <div class="info-row"><span class="label">Full Name:</span>Eloisa</div>
+            <div class="info-row"><span class="label">Student ID:</span> 20242218</div>
+            <div class="info-row"><span class="label">Class:</span> Class 242 of Software Engineering (Sino-foreign
+                Cooperative Education)</div>
+            <div class="info-row"><span class="label">Major:</span> Software Engineering</div>
+            <div class="info-row"><span class="label">University:</span> North Minzu University</div>
+        </div>
+    </div>
+</body>
+
+</html>
